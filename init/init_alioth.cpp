@@ -104,17 +104,6 @@ void vendor_load_properties() {
         model_property_override("alioth", "Mi 11X");
         name_property_override("aliothin");
       }
-    } else if (sku == "munch") {
-      model_property_override("munch", "Redmi K40S");
-    } else if (sku == "munchg") {
-      model_property_override("munch", "POCO F4");
-    } else if (sku == "munchin") {
-      model_property_override("munch", "POCO F4");
-      name_property_override("munch_in");
-    } else if (twrp_name == "thyme") {
-      model_property_override("thyme", "Mi 10S");
-    } else if (twrp_name == "psyche") {
-      model_property_override("psyche", "Mi 12X");
     } else {
       model_property_override("unknow", "unknow name");
     }
