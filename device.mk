@@ -46,9 +46,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # otacert
 PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(DEVICE_PATH)/security/miui_releasekey
-
-# PRODUCT_RELEASE_NAME ro.twrp.device.name
-PRODUCT_PROPERTY_OVERRIDES += ro.twrp.device.name=$(PRODUCT_RELEASE_NAME)
+    vendor/recovery/security/miui
 
 TWRP_REQUIRED_MODULES += miui_prebuilt
