@@ -160,6 +160,8 @@ TW_INCLUDE_PYTHON := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_INCLUDE_RESETPROP := true
 TW_INCLUDE_LIBRESETPROP := true
+TW_INCLUDE_LPDUMP := true
+TW_INCLUDE_LPTOOLS := true
 			     
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
