@@ -68,7 +68,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_ALLOW_DISABLE_NAVBAR=0
     export OF_CLOCK_POS=1
     export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
-	export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
+    export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 
 
     # Tools
@@ -84,6 +84,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_DELETE_AROMAFM=1
     export OF_FORCE_PREBUILT_KERNEL=1
     export FOX_BUGGED_AOSP_ARB_WORKAROUND="1546300800"
+    export FOX_USE_SPECIFIC_MAGISK_ZIP="/home/masemoel/Escritorio/ROMs/fox_12.1/device/xiaomi/alioth/magisk/Magisk-v26.3.zip"
 
     # OTA for custom ROMs - currently unavailable for VA/B devices
     #export OF_DISABLE_MIUI_OTA_BY_DEFAULT=1
